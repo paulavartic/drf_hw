@@ -1,0 +1,54 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$noqBw65H50R35oyjoFlC2Y$pOk2eWeE14fgsp2l8Q4D6/ROPpe4cePAYA7x7q9UNg4=",
+      "last_login": "2024-07-22T19:54:43.536Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-07-22T19:54:27.855Z",
+      "email": "admin@example.com",
+      "avatar": "",
+      "phone": null,
+      "country": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+      "payment_sum": 5000,
+      "payment_method": "TRANSFER"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+      "payment_sum": 10000,
+      "payment_method": "CASH"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 3,
+    "fields": {
+      "payment_sum": 18500,
+      "payment_method": "CASH"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 4,
+    "fields": {
+      "payment_sum": 1000,
+      "payment_method": "TRANSFER"
+    }
+  }
+]
