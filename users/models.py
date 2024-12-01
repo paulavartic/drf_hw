@@ -77,6 +77,18 @@ class Payment(models.Model):
         verbose_name='Payment method',
         choices=method_options,
     )
+    session_id = models.CharField(
+        max_length=300,
+        verbose_name='Session ID',
+        blank=True,
+        null=True,
+    )
+    link = models.URLField(
+        max_length=400,
+        verbose_name='Payment URL',
+        blank=True,
+        null=True,
+    )
 
     class Meta:
         verbose_name = 'Payment'
